@@ -24,7 +24,6 @@ export default {
         let allList = route.matched.filter(item => {
           this.breadList = [];
           if (item.meta && item.meta.title) {
-            // console.log("111",item.redirect);
             if (item.redirect) {
               item.path = ''
             }

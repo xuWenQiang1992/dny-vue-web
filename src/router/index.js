@@ -25,7 +25,7 @@ export const StaticRouterMap = [
         meta: { title: "首页", icon: "example",affix: true },
         children: [
             {
-                path: "/dashboard",
+                path: "dashboard",
                 component: () => import("@/views/dashboard/index"),
                 meta: { title: '首页', icon: 'el-icon-s-data',affix: true }
             }

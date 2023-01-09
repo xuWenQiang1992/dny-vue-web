@@ -89,7 +89,7 @@ export default {
             if (!res.data.success) {
               console.log('登陆失败!')
             } else {
-              this.$router.push({ path: this.redirect || '/' || '/dashboard' })
+              this.$router.push({ path: '/' }, () => {})
               this.loading = false
             }
             this.loading = false;

@@ -87,7 +87,7 @@ export default {
           // 写法：this.$store.dispatch(‘action方法名’,值)
           this.$store.dispatch('user/_login', this.loginForm).then(res => {
             if (!res.data.success) {
-              console.log('登陆失败!!')
+              console.log('登陆失败!')
             } else {
               this.$router.push({ path: this.redirect || '/' || '/dashboard' })
               this.loading = false

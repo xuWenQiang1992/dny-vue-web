@@ -23,7 +23,6 @@ import LHeader from './components/header/indexLeft'
 import RHeader from './components/header/indexRight'
 import SideBar from './components/sideBar'
 import PageMain from './components/PageMain'
-// import AppMain from './components/AppMain'
 import TagsView from './components/tagsView/index.vue'
 import { mapGetters } from 'vuex'
 export default {

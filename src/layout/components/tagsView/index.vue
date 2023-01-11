@@ -62,13 +62,11 @@ export default {
     }
   },
   mounted() {
-    this.initTags()
-    this.addTags()
+    this.initTags();
+    this.addTags();
   },
   methods: {
     isActive(route) {
-      console.log(route);
-      console.log(this.$route);
       return route.title === this.$route.meta.title
     },
     isAffix(tag) {
